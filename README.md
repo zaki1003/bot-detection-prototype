@@ -11,7 +11,7 @@ The analysis evaluates a traditional **Rule-Based System** against three advance
 *   **Four-Algorithm Implementation:**
     1.  **Rule-Based Detector:** A heuristic system to establish an interpretable "ground truth."
     2.  **Isolation Forest:** A standard tree-based anomaly detection model.
-    3.  **XStream:** A streaming-focused outlier detection algorithm based on the KDD '18 research paper.
+    3.  **[XStream](https://cmuxstream.github.io/):** A streaming-focused outlier detection algorithm based on the KDD '18 research paper.
     4.  **SSGAD:** A prototype of a graph-based anomaly detection concept.
 *   **Comparative Performance Analysis:** Rigorous evaluation of all algorithms using F1-score, Precision, and Recall.
 *   **Data Visualization:** Clear and insightful visualizations to support the analytical findings.
@@ -85,7 +85,16 @@ This project provides a robust framework for evaluating and deploying a bot dete
 
 ## 🛠️ How to Run
 
-Follow these steps to reproduce the analysis:
+### 🚀 View on Kaggle (Recommended)
+
+The easiest way to explore this project is to view the interactive notebook directly on Kaggle. This requires no local setup.
+
+**[➡️ View the Notebook on Kaggle](https://www.kaggle.com/code/your-username/your-notebook-name)**
+
+
+### 💻 Local Setup
+
+Alternatively, to run the project locally, follow these steps:
 
 **1. Prerequisites:**
 *   Python 3.8+
