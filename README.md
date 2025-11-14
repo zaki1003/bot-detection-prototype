@@ -7,7 +7,7 @@ The analysis evaluates a traditional **Rule-Based System** against three advance
 ## 🚀 Key Features
 
 *   **Log Parsing & EDA:** In-depth parsing of web server logs and exploratory data analysis to identify initial traffic patterns.
-*   **Advanced Feature Engineering:** Creation of **38 behavioral features** for each IP, categorized into "Basic" (8 features) and "Advanced" (25 features) sets to test model sensitivity.
+*   **Advanced Feature Engineering:** Creation of **behavioral features** for each IP, categorized into "Basic" (8 features) and "Advanced" (25 features) sets to test model sensitivity.
 *   **Four-Algorithm Implementation:**
     1.  **Rule-Based Detector:** A heuristic system to establish an interpretable "ground truth."
     2.  **Isolation Forest:** A standard tree-based anomaly detection model.
@@ -69,7 +69,7 @@ The models were ranked by their **F1-score**, which provides the best measure of
 
 The visualizations from the rule-based analysis clearly distinguish bot behavior from human traffic, validating the heuristics used. Bots exhibit significantly higher request rates and error rates.
 
-![Bot Detection Analysis](bot_detection_analysis.png)*(Note: Ensure the image file `bot_detection_analysis.png` is in your repository for this to display.)*
+<img width="4471" height="2970" alt="Image" src="https://github.com/user-attachments/assets/06139060-c684-464e-bb16-ba53b6df1c3d" />
 
 ## 🏁 Conclusion & Recommendations
 
