@@ -1,7 +1,3 @@
-Of course. Here is a professional and comprehensive `README.md` file for your GitHub project, summarizing the entire analysis from the Jupyter Notebook. You can copy and paste this directly into a `README.md` file in your project repository.
-
----
-
 # Bot Detection Prototype: A Comparative Analysis
 
 This project provides a comprehensive analysis and comparison of four distinct bot detection methodologies using a real-world web server access log dataset. The goal is to identify the most effective and efficient algorithm for detecting automated traffic in a production-like environment.
@@ -98,8 +94,8 @@ Follow these steps to reproduce the analysis:
 **2. Installation:**
 Clone the repository and install the required libraries. It is recommended to use a virtual environment.
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/zaki1003/bot-detection-prototype.git
+cd bot-detection-prototype
 pip install -r requirements.txt
 ```
 *(You will need to create a `requirements.txt` file with the libraries listed in the notebook, such as pandas, scikit-learn, mmh3, matplotlib, seaborn, etc.)*
