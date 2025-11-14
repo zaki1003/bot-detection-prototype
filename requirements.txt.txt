@@ -1,0 +1,29 @@
+# --------------------------------------------------------------------
+# Python dependencies for the Bot Detection Prototype project
+# --------------------------------------------------------------------
+# To install all dependencies, run:
+# pip install -r requirements.txt
+# --------------------------------------------------------------------
+
+# Core data manipulation and numerical operations
+pandas
+numpy
+
+# Machine Learning and Metrics
+scikit-learn  # For IsolationForest, StandardScaler, and performance metrics (precision, recall, f1_score)
+
+# Hashing Algorithm (used in xStream implementation)
+mmh3
+
+# Graph analysis (used in SSGAD implementation)
+networkx
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Utility for progress bars
+tqdm
+
+# Environment for running the notebook
+jupyterlab
