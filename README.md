@@ -11,7 +11,7 @@ The analysis evaluates a traditional **Rule-Based System** against three advance
 *   **Four-Algorithm Implementation:**
     1.  **Rule-Based Detector:** A heuristic system to establish an interpretable "ground truth."
     2.  **Isolation Forest:** A standard tree-based anomaly detection model.
-    3.  **[XStream](https://cmuxstream.github.io/):** A streaming-focused outlier detection algorithm based on the KDD '18 research paper.
+    3.  **[XStream](https://cmuxstream.github.io/):** A streaming-focused outlier detection algorithm based on the KDD ([research paper](https://www.kdd.org/kdd2018/accepted-papers/view/xstream-outlier-detection-in-feature-evolving-data-streams)).
     4.  **SSGAD:** A prototype of a graph-based anomaly detection concept.
 *   **Comparative Performance Analysis:** Rigorous evaluation of all algorithms using F1-score, Precision, and Recall.
 *   **Data Visualization:** Clear and insightful visualizations to support the analytical findings.
@@ -89,7 +89,7 @@ This project provides a robust framework for evaluating and deploying a bot dete
 
 The easiest way to explore this project is to view the interactive notebook directly on Kaggle. This requires no local setup.
 
-**[➡️ View the Notebook on Kaggle](https://www.kaggle.com/code/your-username/your-notebook-name)**
+**[➡️ View the Notebook on Kaggle](https://www.kaggle.com/code/zakariamerabet/log-anomaly-bot-detection)**
 
 
 ### 💻 Local Setup
@@ -107,10 +107,9 @@ git clone https://github.com/zaki1003/bot-detection-prototype.git
 cd bot-detection-prototype
 pip install -r requirements.txt
 ```
-*(You will need to create a `requirements.txt` file with the libraries listed in the notebook, such as pandas, scikit-learn, mmh3, matplotlib, seaborn, etc.)*
 
 **3. Dataset:**
-Download the dataset from [Kaggle](https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs) and place the `access.log` file in the root directory. Rename it to `access_10000.log` or update the file path in the notebook.
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs) and place the `access.log` file in the root directory. Update the file path in the notebook.
 
 **4. Execution:**
 Launch Jupyter and run the cells in the `bot-detection-prototype-notebook.ipynb` notebook.
