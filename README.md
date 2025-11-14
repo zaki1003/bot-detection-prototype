@@ -27,9 +27,6 @@ The analysis is performed on a publicly available **Web Server Access Log** data
 | Metric              | Value                                         |
 | :------------------ | :-------------------------------------------- |
 | **Source**          | Kaggle: [Web Server Access Logs](https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs) |
-| **Total Log Entries**| 10,000                                        |
-| **Unique IPs Analyzed**| 334 (those with >1 request)                 |
-| **Time Window**     | Approx. 41 minutes (on January 22, 2019)      |
 | **Key Characteristic** | Contains a clear mix of human traffic and known web crawlers (Googlebot, Bingbot, etc.). |
 
 Since the dataset is unlabeled, the Rule-Based System's classifications are used as the ground truth for evaluating the performance of the unsupervised models.
